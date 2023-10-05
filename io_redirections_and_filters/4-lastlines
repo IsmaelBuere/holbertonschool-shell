@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vi -c ":e +$ -10" /etc/passwd
+sudo tail -n 10 /etc/passwd | vi -
