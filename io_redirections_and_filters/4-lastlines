@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo vi +'$-10p' /etc/passwd
