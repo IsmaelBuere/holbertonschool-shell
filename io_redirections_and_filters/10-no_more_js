@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -r *.js 
+grep -rlZ --include="*.js" . | xargs -0 rm
