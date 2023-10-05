@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -c ':+$-10|'
+sudo vi -c ":$-10" /etc/passwd
