@@ -1,2 +1,2 @@
 #!/bin/bash
-:$t.|-1s/.*/\0\n\0/
+tail -l iacta >> iacta 
