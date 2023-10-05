@@ -1,0 +1,2 @@
+#!/bin/bash
+vi +3 -c ':p' -c ':q!' iacta
