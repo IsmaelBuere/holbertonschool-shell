@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vi +'$-10p' /etc/passwd
+sudo vi -c ":e +$ -10" /etc/passwd
